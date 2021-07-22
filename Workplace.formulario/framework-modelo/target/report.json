@@ -1,0 +1,65 @@
+[
+  {
+    "line": 5,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-22T15:24:16.172Z",
+        "line": 9,
+        "name": "Enviar formulario",
+        "description": "",
+        "id": "validar-formulario;enviar-formulario",
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "que eu esteja no formulario",
+            "match": {},
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "eu preencher e enviar o formulario",
+            "match": {},
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "sou direcionado para o site da escola",
+            "match": {},
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@executa"
+          }
+        ]
+      }
+    ],
+    "name": "Validar formulario",
+    "description": "  Eu como aluno quero enviar um formulario para enviar uma mensagem",
+    "id": "validar-formulario",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/features/formulario.feature",
+    "tags": [
+      {
+        "name": "@executa",
+        "type": "Tag",
+        "location": {
+          "line": 4,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
